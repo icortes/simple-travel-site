@@ -4,7 +4,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body{
+body {
   display: flexbox;
   justify-content: center;
 }
@@ -41,4 +41,19 @@ table {
 th,
 td {
   padding: 5px;
+}
+
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  gap: 20px 20px;
+  margin: 20px;
+}
+
+.pictures img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.5);
 }
