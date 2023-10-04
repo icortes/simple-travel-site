@@ -43,6 +43,15 @@ a:visited {
   color: black;
 }
 
+p::first-letter {
+  color: orange;
+  float: left;
+  font-size: 2.6em;
+  font-weight: bold;
+  line-height: 1;
+  margin-inline-end: 0.2rem;
+}
+
 table,
 th,
 td {
@@ -75,7 +84,7 @@ td {
 }
 
 .picturerow img {
-  width: 300px;
+  width: 400px;
   border-radius: 20px;
   box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.5);
 }
