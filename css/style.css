@@ -1,6 +1,6 @@
 html,
 body {
-  margin: 0 30px;
+  margin: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -9,10 +9,22 @@ body {
   justify-content: center;
 }
 
+header {
+  background-color: orange;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
 h1,
 h2 {
   text-align: center;
 }
+
 nav ul {
   display: flex;
   list-style: none;
@@ -24,6 +36,11 @@ nav ul li {
 
 a {
   text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: black;
 }
 
 table,
@@ -43,7 +60,12 @@ td {
   padding: 5px;
 }
 
-.pictures {
+.content {
+  margin-top: 50px;
+  padding: 0 30px;
+}
+
+.picturerow {
   display: flex;
   flex-wrap: wrap;
   align-items: start;
@@ -52,7 +74,7 @@ td {
   margin: 20px;
 }
 
-.pictures img {
+.picturerow img {
   width: 300px;
   border-radius: 20px;
   box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.5);
